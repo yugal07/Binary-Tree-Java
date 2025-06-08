@@ -8,4 +8,11 @@ public class Traversals {
         preorder(root.left);
         preorder(root.right);
     }
+    public static void inorder(TreeNode root){
+        if(root  == null) return;
+
+        inorder(root.left);
+        System.out.println(root.val);
+        inorder(root.right);
+    }
 }
