@@ -40,7 +40,7 @@ import java.util.List;
 // Output: [1]
 
  
-public class PreorderList {
+public class InorderList {
     public static List<Integer> inorderTraversal(TreeNode root){
         List<Integer> result = new ArrayList<>();
         
